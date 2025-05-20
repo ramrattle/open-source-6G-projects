@@ -12,3 +12,7 @@ Tutorials: https://lnkd.in/gtD4vS4V
 Github: https://lnkd.in/gi9m--e2
 
 
+𝐒𝐢𝐨𝐧𝐧𝐚 𝐑𝐞𝐬𝐞𝐚𝐫𝐜𝐡 𝐊𝐢𝐭
+https://nvlabs.github.io/sionna/rk/tutorials
+https://nvlabs.github.io/sionna/rk/
+https://github.com/nvlabs/sionna-rk
