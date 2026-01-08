@@ -10,6 +10,7 @@ Welcome to this repo. Similar to the 5G list (https://github.com/ramrattle/100-o
 ## Projects (additional 6G-specific open source)
 - NVIDIA Aerial CUDA-Accelerated RAN: https://github.com/NVIDIA/aerial-cuda-accelerated-ran
 - NVIDIA Aerial Framework: https://github.com/NVIDIA/aerial-framework
+- NVIDIA CUDA accelerated RAN https://github.com/NVIDIA/aerial-cuda-accelerated-ran?es_id=be9ca8a463
 - Open Cloud Semantic RAN: https://github.com/6G-Cloud-RnE-Open-Hub/open-cloud-semantic-ran
 - 6G Edge Computing Simulation (EdgeGO): https://github.com/mobinets/6G-Edge-Computing-Simulation-Deployment
 - 6G Channel Estimation Dataset: https://github.com/ocatak/6g-channel-estimation-dataset
