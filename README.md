@@ -3,6 +3,7 @@ Welcome to this repo. Similar to the 5G list (https://github.com/ramrattle/100-o
 
 ## Platforms and datasets
 - DeepVerse 6G — digital replicas of DeepSense 6G scenarios with synchronized vision, LiDAR, radar, positioning, and wireless data. Links: https://deepverse6g.net/ , https://lnkd.in/gtD4vS4V , https://lnkd.in/gi9m--e2
+- BUPTCMCC-6G-DataAI+ — generative channel dataset for 6G AI air interface research covering mid-bands, mmWave, and THz with XL-MIMO, RIS, and industrial IoT scenarios. arXiv: https://arxiv.org/abs/2410.10839
 
 ## Toolkits and frameworks
 - Sionna Research Kit — tutorials and docs for AI-RAN prototyping. Links: https://nvlabs.github.io/sionna/rk/tutorials , https://nvlabs.github.io/sionna/rk/ , https://github.com/nvlabs/sionna-rk
@@ -10,7 +11,6 @@ Welcome to this repo. Similar to the 5G list (https://github.com/ramrattle/100-o
 ## Projects (additional 6G-specific open source)
 - NVIDIA Aerial CUDA-Accelerated RAN: https://github.com/NVIDIA/aerial-cuda-accelerated-ran
 - NVIDIA Aerial Framework: https://github.com/NVIDIA/aerial-framework
-- NVIDIA CUDA accelerated RAN https://github.com/NVIDIA/aerial-cuda-accelerated-ran?es_id=be9ca8a463
 - Open Cloud Semantic RAN: https://github.com/6G-Cloud-RnE-Open-Hub/open-cloud-semantic-ran
 - 6G Edge Computing Simulation (EdgeGO): https://github.com/mobinets/6G-Edge-Computing-Simulation-Deployment
 - 6G Channel Estimation Dataset: https://github.com/ocatak/6g-channel-estimation-dataset
