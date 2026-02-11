@@ -32,3 +32,4 @@ Welcome to this repo. Similar to the 5G list (https://github.com/ramrattle/100-o
 - Toward End-to-End, Full-Stack 6G Terahertz Networks — arXiv: https://arxiv.org/abs/2005.07989 — Code: https://github.com/mychele/toward-e2e-6g-terahertz-networks
 - EdgeGO: A Resource Sharing Framework for 6G Edge Computing in Massive IoT Systems — IEEE Xplore: https://ieeexplore.ieee.org/document/9375469/ — Code: https://github.com/mobinets/6G-Edge-Computing-Simulation-Deployment
 - VOTA: Parallelizing 6G-RAN Experimentation with Virtualized Over-The-Air Workloads — arXiv: https://arxiv.org/abs/2509.00130 — Code: https://github.com/cl0713/vota
+- 6G bench : https://github.com/maferrag/6G-Bench
