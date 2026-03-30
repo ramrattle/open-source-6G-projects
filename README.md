@@ -26,6 +26,7 @@ Welcome to this repo. Similar to the 5G list (https://github.com/ramrattle/100-o
 - VOTA (6G-RAN experimentation with virtualized OTA workloads): https://github.com/cl0713/vota
 - 6G Testbeds (site repo): https://github.com/6G-RF/6G-Testbeds.github.io
 - Linux foundation RAN project https://ocudu.org/
+- DeepMIMO https://github.com/DeepMIMO/DeepMIMO
 
 ## Papers (arXiv/IEEE) with open source components
 - Radar Aided 6G Beam Prediction: Deep Learning Algorithms and Real-World Demonstration — arXiv: https://arxiv.org/abs/2111.09676 — Code: https://github.com/umut-demirhan/Radar-aided-beam-prediction
