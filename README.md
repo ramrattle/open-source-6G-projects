@@ -4,6 +4,12 @@ Welcome to this repo. Similar to the 5G list (https://github.com/ramrattle/100-o
 ## Platforms and datasets
 - DeepVerse 6G — digital replicas of DeepSense 6G scenarios with synchronized vision, LiDAR, radar, positioning, and wireless data. Links: https://deepverse6g.net/ , https://lnkd.in/gtD4vS4V , https://lnkd.in/gi9m--e2
 - BUPTCMCC-6G-DataAI+ — generative channel dataset for 6G AI air interface research covering mid-bands, mmWave, and THz with XL-MIMO, RIS, and industrial IoT scenarios. arXiv: https://arxiv.org/abs/2410.10839
+- OpenOP by ETSI
+    Open-source operator platform for telco cloud federation and 6G experimentation. ETSI
+    announced Release 1 on March 18, 2026, and the project states its code is under Apache
+    https://oop.etsi.org/
+    https://oop.etsi.org/news/release-1/
+    https://oop.etsi.org/legal/code-license/
 
 ## Toolkits and frameworks
 - Sionna Research Kit — tutorials and docs for AI-RAN prototyping. Links: https://nvlabs.github.io/sionna/rk/tutorials , https://nvlabs.github.io/sionna/rk/ , https://github.com/nvlabs/sionna-rk
