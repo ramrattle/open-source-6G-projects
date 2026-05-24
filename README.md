@@ -24,6 +24,7 @@ Welcome to this repo. Similar to the 5G list (https://github.com/ramrattle/100-o
 - Radio Localization (5G/6G mmWave/THz): https://github.com/chenhui07c8/Radio_Localization
 - Toward End-to-End 6G Terahertz Networks: https://github.com/mychele/toward-e2e-6g-terahertz-networks
 - MEC-enabled UAV with IRS-assisted 6G THz Networks: https://github.com/IntelligentNetworkingLAB/MEC-enabled-UAV-with-IRS-assisted-6G-THz-Networks
+- OpenAirTwin https://github.com/HKUOpenSource/OpenAirTwin
 - LEO Satellite Coverage Maximization in 6G Sub-THz Networks (MAPPO-DRL): https://github.com/IntelligentNetworkingLAB/LEO-Satellite-Coverage-Maximization-in-6G-Sub-THz-Networks-by-MAPPO-DRL
 - Radar-aided 6G Beam Prediction: https://github.com/umut-demirhan/Radar-aided-beam-prediction
 - CommLLM (LLM-enhanced multi-agent systems for 6G): https://github.com/jiangfeibo/CommLLM
