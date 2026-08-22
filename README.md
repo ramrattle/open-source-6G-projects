@@ -5,7 +5,7 @@ research for 6G. This is the 6G companion to the
 [100 open-source 5G projects](https://github.com/ramrattle/100-opensource-5G-projects)
 list.
 
-**Last reviewed:** 11 August 2026
+**Last reviewed:** 22 August 2026
 
 > [!NOTE]
 > 6G is still a research field rather than a deployed standard. Inclusion here
@@ -14,6 +14,8 @@ list.
 
 ## What's new
 
+- Added the 5G-MAG 6G AI Traffic Characterization Testbed for reproducible
+  AI/LLM traffic experiments under emulated 5G, 6G, Wi-Fi, and satellite conditions.
 - Added the ETSI OpenOP Release 1 operator-platform project.
 - Added the DeepVerse 6G and BUPTCMCC-6G-DataAI+ multimodal/channel datasets.
 - Added NVIDIA's Aerial Omniverse Digital Twin and the 6G-SANDBOX testbed
@@ -24,6 +26,7 @@ list.
 
 | Project | Focus | Resources |
 | --- | --- | --- |
+| **5G-MAG 6G AI Traffic Characterization Testbed** | Reproducible AI/LLM service-traffic experiments with network emulation, packet capture, and 60+ application/network metrics; developed to support 3GPP SA4 6G media-study contributions. | [Code](https://github.com/5G-MAG/6G-Testbed) · [License](https://github.com/5G-MAG/6G-Testbed/blob/main/LICENSE.md) |
 | **ETSI OpenOP** | Operator platform for telco-cloud federation and 6G experimentation. Release 1 was announced on 18 March 2026; code is Apache-licensed. | [Project](https://oop.etsi.org/) · [Release 1](https://oop.etsi.org/news/release-1/) · [License](https://oop.etsi.org/legal/code-license/) |
 | **6G-SANDBOX** | European experimentation platform for validating 6G technology across distributed testbeds. | [Project](https://6g-sandbox.eu/) · [GitHub organization](https://github.com/6G-SANDBOX) |
 | **OpenAirTwin** | Open-source digital twin for experimenting with wireless systems. | [Code](https://github.com/HKUOpenSource/OpenAirTwin) |
