@@ -14,6 +14,8 @@ list.
 
 ## What's new
 
+- Added NIST ORCHAV for scenario-driven Sionna RT orchestration, reusable
+  propagation frames, analysis, and interactive visualization.
 - Added the 5G-MAG 6G AI Traffic Characterization Testbed for reproducible
   AI/LLM traffic experiments under emulated 5G, 6G, Wi-Fi, and satellite conditions.
 - Added the ETSI OpenOP Release 1 operator-platform project.
@@ -47,6 +49,7 @@ list.
 | Project | Focus | Resources |
 | --- | --- | --- |
 | **Sionna** | GPU-accelerated, differentiable link-level simulation, ray tracing, and system-level wireless research. | [Code](https://github.com/NVlabs/sionna) · [Documentation](https://nvlabs.github.io/sionna/) |
+| **NIST ORCHAV** | Scenario-driven orchestration of Sionna RT simulations, with reusable propagation frames, terminal/Python analysis, and interactive visualization of actors, paths, coverage, and metrics. | [Code](https://github.com/usnistgov/ORCHAV) · [Documentation](https://github.com/usnistgov/ORCHAV/tree/main/docs) · [License](https://github.com/usnistgov/ORCHAV/blob/main/LICENSE) |
 | **Sionna Research Kit** | Tutorials and reference workflows for AI-RAN prototyping with software-defined radios. | [Code](https://github.com/NVlabs/sionna-rk) · [Documentation](https://nvlabs.github.io/sionna/rk/) · [Tutorials](https://nvlabs.github.io/sionna/rk/tutorials/) |
 | **Aerial CUDA-Accelerated RAN** | GPU-accelerated 5G/6G physical-layer building blocks. | [Code](https://github.com/NVIDIA/aerial-cuda-accelerated-ran) |
 | **Aerial Framework** | Components and examples for accelerated RAN development. | [Code](https://github.com/NVIDIA/aerial-framework) |
