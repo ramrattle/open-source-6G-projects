@@ -14,6 +14,14 @@ list.
 
 ## What's new
 
+- Added DeepSense 6G, the large real-world multimodal sensing-and-communication
+  dataset (camera, radar, LiDAR, GPS, and mmWave beams across 40+ scenarios).
+- Added NIST 5GNRad, a public-domain ISAC link-level simulator aligned with
+  3GPP Release 19 sensing channel models.
+- Added Tiny-Twin, a CPU-only, full-stack OpenAirInterface-based digital twin
+  for NextG cellular networks presented at IEEE DySPAN 2026.
+- Added an **Under review** list for promising projects that are not yet
+  listed because their code or license terms are unclear.
 - Added the DETERMINISTIC6G 6GDetCom Simulator, an OMNeT++/INET framework for
   end-to-end deterministic (5G/6G-TSN) communication research.
 - Added ns3-ntn-toolkit, an ns-3 platform for 6G non-terrestrial networks
@@ -48,6 +56,7 @@ list.
 
 | Project | Focus | Resources |
 | --- | --- | --- |
+| **DeepSense 6G** | Large-scale real-world dataset of synchronized camera, radar, LiDAR, GPS, and mmWave beam measurements across 40+ V2I, V2V, drone, RIS, and indoor scenarios. | [Dataset](https://www.deepsense6g.net/) · [IEEE DataPort](https://ieee-dataport.org/documents/deepsense-6g-large-scale-real-world-multi-modal-sensing-and-communication-dataset) |
 | **DeepVerse 6G** | Digital replicas of DeepSense 6G scenarios, combining synchronized vision, LiDAR, radar, positioning, and wireless data. | [Dataset](https://deepverse6g.net/) |
 | **BUPTCMCC-6G-DataAI+** | Generative channel data for AI-native air-interface research, spanning mid-band, mmWave, THz, XL-MIMO, RIS, and industrial-IoT scenarios. | [Paper](https://arxiv.org/abs/2410.10839) |
 | **DeepMIMO** | DeepMIMOv4 toolchain and database of ray-tracing channel datasets for machine-learning research in wireless communications. | [Code](https://github.com/DeepMIMO/DeepMIMO) |
@@ -65,6 +74,8 @@ list.
 | **Aerial Omniverse Digital Twin** | Site-specific digital-twin workflows for 6G and AI-RAN simulation. | [Code](https://github.com/NVIDIA/aerial-omniverse-digital-twin) |
 | **6GDetCom Simulator** | DETERMINISTIC6G (Horizon Europe) OMNeT++/INET framework for data-driven simulation of deterministic end-to-end communication, including logical 5G-TSN bridges. LGPL-3.0. | [Code](https://github.com/DETERMINISTIC6G/6GDetCom_Simulator) · [Project](https://deterministic6g.eu/) |
 | **ns3-ntn-toolkit** | ns-3.43-based platform for 6G non-terrestrial networks: LEO constellations, NR-NTN stacks, O-RAN control loops, THz links, and RL agents, with 90+ examples. GPL-2.0. | [Code](https://github.com/Muhammaduazir69/ns3-ntn-toolkit) |
+| **NIST 5GNRad** | MATLAB ISAC link-level simulator that uses 5G NR positioning reference signals with a radar processing chain, including channels compliant with the 3GPP Release 19 TR 38.901 sensing extensions; used in 3GPP RAN1 ISAC evaluations. NIST public-domain license. | [Code](https://github.com/usnistgov/5GNRad) · [License](https://github.com/usnistgov/5GNRad/blob/main/license/license.md) |
+| **Tiny-Twin** | CPU-only, full-stack digital twin for NextG cellular networks built on OpenAirInterface, supporting split 7.2 and split 8 with no GPU or SDR hardware required. OAI Public License v1.1. | [Code](https://github.com/ucsdwcsng/Tiny_Twin) · [Paper](https://arxiv.org/abs/2601.08217) |
 | **6G-Bench** | Benchmark collection for evaluating AI-enabled 6G use cases. | [Code](https://github.com/maferrag/6G-Bench) |
 
 ## Research implementations
@@ -83,6 +94,18 @@ list.
 | **LAM4PHY 6G** | Large AI models for physical-layer tasks. | [Code](https://github.com/AI4Wireless/LAM4PHY_6G) |
 | **GenSC-6G** | Generative semantic communication research. | [Code](https://github.com/CQILAB-Official/GenSC-6G) |
 | **VOTA** | Parallel 6G-RAN experimentation with virtualized over-the-air workloads. | [Code](https://github.com/cl0713/vota) · [Paper](https://arxiv.org/abs/2509.00130) |
+
+## Under review
+
+These projects look relevant but are not listed yet because their code or
+license terms could not be confirmed. Pull requests that resolve these gaps are
+welcome.
+
+| Project | Why it is on hold | Resources |
+| --- | --- | --- |
+| **SimART** | Multimodal 6G ISAC simulation platform (ROS, Sionna ray tracing, digital-twin scenes); code is public, but no license was stated as of September 2026. | [Code](https://github.com/guchuanv-alt/SimART) · [Paper](https://arxiv.org/abs/2605.13309) |
+| **3GPP-Compliant ISAC Channel Simulator** | MATLAB implementation and calibration of the TR 38.901 (v19) ISAC channel model; code is visible, but the authors reserve all rights. | [Code](https://github.com/Putirf/Implementation-and-Calibration-of-3GPP-Compliant-ISAC-Channel-Model-Simulator) · [Paper](https://arxiv.org/abs/2606.07328) |
+| **Open6G+AI** | Northeastern University initiative (announced February 2026) to pre-integrate open RAN, core, and AI tooling for end-to-end 6G testing; a consolidated code release was not confirmed. | [Announcement](https://insi.northeastern.edu/news/northeastern-university-launches-open6gai-toward-an-open-source-ecosystem-to-accelerate-ai-powered-end-to-end-6g-wireless-networks/) |
 
 ## Contributing
 
