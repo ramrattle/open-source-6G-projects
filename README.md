@@ -94,6 +94,7 @@ list.
 | **LAM4PHY 6G** | Large AI models for physical-layer tasks. | [Code](https://github.com/AI4Wireless/LAM4PHY_6G) |
 | **GenSC-6G** | Generative semantic communication research. | [Code](https://github.com/CQILAB-Official/GenSC-6G) |
 | **VOTA** | Parallel 6G-RAN experimentation with virtualized over-the-air workloads. | [Code](https://github.com/cl0713/vota) · [Paper](https://arxiv.org/abs/2509.00130) |
+| **OpenNTN** | 3GPP TR 38.811 non-terrestrial network channel models for Sionna | https://github.com/ant-uni-bremen/OpenNTN
 
 ## Under review
 
