@@ -5,7 +5,7 @@ research for 6G. This is the 6G companion to the
 [100 open-source 5G projects](https://github.com/ramrattle/100-opensource-5G-projects)
 list.
 
-**Last reviewed:** 24 September 2026
+**Last reviewed:** 29 October 2026
 
 > [!NOTE]
 > 6G is still a research field rather than a deployed standard. Inclusion here
@@ -13,6 +13,18 @@ list.
 > compliance, production readiness, or endorsement.
 
 ## What's new
+
+### October 2026
+
+- Updated OCUDU for its second release, OCUDU 26.10 (8 October 2026), which
+  adds 3GPP Release 17 NTN support, 8T8R MIMO, multi-beam operation, O-RAN
+  split 7.2b, and native 5G positioning.
+- Added OpenNTN, the University of Bremen's 3GPP TR 38.811 non-terrestrial
+  channel models for Sionna, now at version 2 on Sionna 2.x and PyTorch.
+- Added the 6G-LEADER Cross-Layer Dataset (6GL-CLD26_v2), with synchronized UAV
+  telemetry, O-RAN RAN metrics, and QoE measurements from 23 flight missions.
+
+### September 2026
 
 - Added DeepSense 6G, the large real-world multimodal sensing-and-communication
   dataset (camera, radar, LiDAR, GPS, and mmWave beams across 40+ scenarios).
@@ -31,6 +43,9 @@ list.
   technical project in September 2026.
 - Updated DeepMIMO to reflect DeepMIMOv4 (ray-tracing toolchain and database)
   and Sionna to reflect the 2.x release line.
+
+### Earlier in 2026
+
 - Added NIST ORCHAV for scenario-driven Sionna RT orchestration, reusable
   propagation frames, analysis, and interactive visualization.
 - Added the 5G-MAG 6G AI Traffic Characterization Testbed for reproducible
@@ -50,7 +65,7 @@ list.
 | **6G-SANDBOX** | European experimentation platform for validating 6G technology across distributed testbeds. | [Project](https://6g-sandbox.eu/) · [GitHub organization](https://github.com/6G-SANDBOX) |
 | **OpenAirTwin** | Open-source digital twin for experimenting with wireless systems. | [Code](https://github.com/HKUOpenSource/OpenAirTwin) |
 | **6G Testbeds directory** | Community-maintained directory of 6G experimental facilities. | [Code/site](https://github.com/6G-RF/6G-Testbeds.github.io) |
-| **OCUDU** | Linux Foundation–hosted, permissively licensed CU/DU with a full L1/L2/L3 stack for 5G and beyond, originally seeded by the U.S. DoD FutureG office. GNU Radio joined the ecosystem foundation in September 2026. | [Project](https://ocudu.org/) · [Code](https://gitlab.com/ocudu/ocudu) · [GitHub mirror](https://github.com/ocudu/ocudu) · [Docs](https://github.com/ocudu/ocudu_docs) |
+| **OCUDU** | Linux Foundation–hosted, permissively licensed CU/DU with a full L1/L2/L3 stack for 5G and beyond, originally seeded by the U.S. DoD FutureG office. Releases follow a six-month cadence; OCUDU 26.10 (October 2026) adds Release 17 NTN, 8T8R MIMO, multi-beam operation, and split 7.2b. GNU Radio joined the ecosystem foundation in September 2026. | [Project](https://ocudu.org/) · [Code](https://gitlab.com/ocudu/ocudu) · [GitHub mirror](https://github.com/ocudu/ocudu) · [Docs](https://github.com/ocudu/ocudu_docs) |
 
 ## Datasets and channel models
 
@@ -60,6 +75,8 @@ list.
 | **DeepVerse 6G** | Digital replicas of DeepSense 6G scenarios, combining synchronized vision, LiDAR, radar, positioning, and wireless data. | [Dataset](https://deepverse6g.net/) |
 | **BUPTCMCC-6G-DataAI+** | Generative channel data for AI-native air-interface research, spanning mid-band, mmWave, THz, XL-MIMO, RIS, and industrial-IoT scenarios. | [Paper](https://arxiv.org/abs/2410.10839) |
 | **DeepMIMO** | DeepMIMOv4 toolchain and database of ray-tracing channel datasets for machine-learning research in wireless communications. | [Code](https://github.com/DeepMIMO/DeepMIMO) |
+| **OpenNTN** | University of Bremen extension of Sionna implementing the 3GPP TR 38.811 non-terrestrial-network channel models for satellite and aerial links; version 2 targets Sionna 2.x and PyTorch (`pip install openntn`). MIT and Apache-2.0. | [Code](https://github.com/ant-uni-bremen/OpenNTN) · [Paper](https://doi.org/10.1109/WSA65299.2025.11202820) |
+| **6G-LEADER Cross-Layer Dataset** | SNS JU 6G-LEADER dataset (6GL-CLD26_v2) of 23 indoor UAV missions over a disaggregated 5G O-RAN testbed, with synchronized UAV telemetry, RAN metrics, and application QoE for 6G AI-driven analytics. CC BY 4.0. | [Dataset](https://github.com/frpaolucci/6gl-cld26-v2) |
 | **6G Channel Estimation Dataset** | Synthetic channel-estimation dataset and experiments. | [Code](https://github.com/ocatak/6g-channel-estimation-dataset) |
 
 ## Toolkits and digital twins
@@ -94,7 +111,6 @@ list.
 | **LAM4PHY 6G** | Large AI models for physical-layer tasks. | [Code](https://github.com/AI4Wireless/LAM4PHY_6G) |
 | **GenSC-6G** | Generative semantic communication research. | [Code](https://github.com/CQILAB-Official/GenSC-6G) |
 | **VOTA** | Parallel 6G-RAN experimentation with virtualized over-the-air workloads. | [Code](https://github.com/cl0713/vota) · [Paper](https://arxiv.org/abs/2509.00130) |
-| **OpenNTN** | 3GPP TR 38.811 non-terrestrial network channel models for Sionna | https://github.com/ant-uni-bremen/OpenNTN
 
 ## Under review
 
@@ -104,7 +120,7 @@ welcome.
 
 | Project | Why it is on hold | Resources |
 | --- | --- | --- |
-| **SimART** | Multimodal 6G ISAC simulation platform (ROS, Sionna ray tracing, digital-twin scenes); code is public, but no license was stated as of September 2026. | [Code](https://github.com/guchuanv-alt/SimART) · [Paper](https://arxiv.org/abs/2605.13309) |
+| **SimART** | Multimodal 6G ISAC simulation platform (ROS, Sionna ray tracing, digital-twin scenes); code is public, but no license was stated as of October 2026. | [Code](https://github.com/guchuanv-alt/SimART) · [Paper](https://arxiv.org/abs/2605.13309) |
 | **3GPP-Compliant ISAC Channel Simulator** | MATLAB implementation and calibration of the TR 38.901 (v19) ISAC channel model; code is visible, but the authors reserve all rights. | [Code](https://github.com/Putirf/Implementation-and-Calibration-of-3GPP-Compliant-ISAC-Channel-Model-Simulator) · [Paper](https://arxiv.org/abs/2606.07328) |
 | **Open6G+AI** | Northeastern University initiative (announced February 2026) to pre-integrate open RAN, core, and AI tooling for end-to-end 6G testing; a consolidated code release was not confirmed. | [Announcement](https://insi.northeastern.edu/news/northeastern-university-launches-open6gai-toward-an-open-source-ecosystem-to-accelerate-ai-powered-end-to-end-6g-wireless-networks/) |
 
