@@ -5,7 +5,7 @@ research for 6G. This is the 6G companion to the
 [100 open-source 5G projects](https://github.com/ramrattle/100-opensource-5G-projects)
 list.
 
-**Last reviewed:** 29 October 2026
+**Last reviewed:** 6 November 2026
 
 > [!NOTE]
 > 6G is still a research field rather than a deployed standard. Inclusion here
@@ -13,6 +13,14 @@ list.
 > compliance, production readiness, or endorsement.
 
 ## What's new
+
+### November 2026
+
+- Added WiWorld-RealData, BUPT's real-world multimodal dataset for 6G wireless
+  world models (dual-band channel impulse responses with camera, LiDAR, radar,
+  and GNSS data).
+- Added the Wireless World Model (WWM) and Great-MCD to **Under review**: both
+  have public papers, but their code and data have not been released yet.
 
 ### October 2026
 
@@ -77,6 +85,7 @@ list.
 | **DeepMIMO** | DeepMIMOv4 toolchain and database of ray-tracing channel datasets for machine-learning research in wireless communications. | [Code](https://github.com/DeepMIMO/DeepMIMO) |
 | **OpenNTN** | University of Bremen extension of Sionna implementing the 3GPP TR 38.811 non-terrestrial-network channel models for satellite and aerial links; version 2 targets Sionna 2.x and PyTorch (`pip install openntn`). MIT and Apache-2.0. | [Code](https://github.com/ant-uni-bremen/OpenNTN) · [Paper](https://doi.org/10.1109/WSA65299.2025.11202820) |
 | **6G-LEADER Cross-Layer Dataset** | SNS JU 6G-LEADER dataset (6GL-CLD26_v2) of 23 indoor UAV missions over a disaggregated 5G O-RAN testbed, with synchronized UAV telemetry, RAN metrics, and application QoE for 6G AI-driven analytics. CC BY 4.0. | [Dataset](https://github.com/frpaolucci/6gl-cld26-v2) |
+| **WiWorld-RealData** | Real-world multimodal dataset for 6G wireless world models from BUPT: measured channel impulse responses at 3.7 GHz and 6.775 GHz aligned with multi-view and panoramic images, LiDAR, mmWave radar, and GNSS trajectories. The current public release covers one representative dual-band route. | [Dataset](https://scc.bupt.edu.cn/dataset-manage/datasets/44) · [DOI](https://doi.org/10.57760/sciencedb.40663) · [Paper](https://arxiv.org/abs/2606.24476) |
 | **6G Channel Estimation Dataset** | Synthetic channel-estimation dataset and experiments. | [Code](https://github.com/ocatak/6g-channel-estimation-dataset) |
 
 ## Toolkits and digital twins
@@ -120,8 +129,10 @@ welcome.
 
 | Project | Why it is on hold | Resources |
 | --- | --- | --- |
-| **SimART** | Multimodal 6G ISAC simulation platform (ROS, Sionna ray tracing, digital-twin scenes); code is public, but no license was stated as of October 2026. | [Code](https://github.com/guchuanv-alt/SimART) · [Paper](https://arxiv.org/abs/2605.13309) |
+| **SimART** | Multimodal 6G ISAC simulation platform (ROS, Sionna ray tracing, digital-twin scenes); code is public, but no license was stated as of November 2026. | [Code](https://github.com/guchuanv-alt/SimART) · [Paper](https://arxiv.org/abs/2605.13309) |
 | **3GPP-Compliant ISAC Channel Simulator** | MATLAB implementation and calibration of the TR 38.901 (v19) ISAC channel model; code is visible, but the authors reserve all rights. | [Code](https://github.com/Putirf/Implementation-and-Calibration-of-3GPP-Compliant-ISAC-Channel-Model-Simulator) · [Paper](https://arxiv.org/abs/2606.07328) |
+| **Wireless World Model (WWM)** | Multimodal foundation model (JEPA-based) for spatiotemporal 6G channel prediction, beam management, and localization, trained on 800k+ ray-traced and prototype-measured samples; the authors plan to release code on GitHub and data on Zenodo after the paper is accepted. | [Paper](https://arxiv.org/abs/2603.25216) · [Planned code](https://github.com/Wireless-World-Model/WWM-V1) |
+| **Great-MCD** | Unreal Engine multimodal ISAC simulator (Great-X) and UAV dataset with aligned CSI, RGB, depth, LiDAR, and radar; the Apache-2.0 repository currently holds only a README, with no code or data yet. | [Repository](https://github.com/hkw-xg/Great-MCD) · [Paper](https://arxiv.org/abs/2507.08716) |
 | **Open6G+AI** | Northeastern University initiative (announced February 2026) to pre-integrate open RAN, core, and AI tooling for end-to-end 6G testing; a consolidated code release was not confirmed. | [Announcement](https://insi.northeastern.edu/news/northeastern-university-launches-open6gai-toward-an-open-source-ecosystem-to-accelerate-ai-powered-end-to-end-6g-wireless-networks/) |
 
 ## Contributing
